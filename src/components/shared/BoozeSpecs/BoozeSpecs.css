@@ -1,0 +1,30 @@
+.specs {
+    /* background-color: gray; */
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.spec-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    border:1px solid black;
+    font-size: 20px;
+}
+
+.spec-item.ph {
+    background-color: olive;
+}
+
+.spec-item.vol {
+    background-color: orange;
+}
+
+.spec-item.alc {
+    background-color: orangered;
+}
