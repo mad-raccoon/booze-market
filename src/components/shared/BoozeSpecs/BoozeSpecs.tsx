@@ -1,18 +1,20 @@
-import * as React from 'react';
+import * as React from "react";
 import "./BoozeSpecs.css";
 
 interface BoozeSpecsProps {
-    ph: string, 
-    volume: string,
-    alcohol:string,
+  ph: number;
+  volume: number;
+  alcohol: number;
 }
 
-const BoozeSpecs: React.FC<BoozeSpecsProps> =({ph, volume, alcohol})=> {
-    return <div className="specs">
-        <div className="spec-item ph">PH <span>{ph}</span></div>
-        <div className="spec-item vol">VOL <span>{volume}</span></div>
-        <div className="spec-item alc">ALC <span>{alcohol}</span></div>
+const BoozeSpecs: React.FC<BoozeSpecsProps> = ({ ph, volume, alcohol }) => {
+  return (
+    <div className="specs">
+      {ph && <div className="spec-item ph">{ph} PH</div>}
+      {alcohol && <div className="spec-item alc">{alcohol} %</div>}
+      {volume && <div className="spec-item vol">{volume} L</div>}
     </div>
-}
+  );
+};
 
-export default BoozeSpecs
+export default BoozeSpecs;

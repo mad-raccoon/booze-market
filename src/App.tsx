@@ -1,10 +1,7 @@
-import React from 'react';
-import { HomePage } from './components/pages';
+import { HomePage } from "./components/pages";
 
 function App() {
-  return (
-    <HomePage/>
-  );
+  return <HomePage />;
 }
 
 export default App;

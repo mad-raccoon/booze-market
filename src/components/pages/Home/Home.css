@@ -1,11 +1,16 @@
-.grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    /* background-color: #2196F3; */
-  }
-  .grid-item {
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
-  }
+.header {
+  display: flex;
+  background: black;
+  color: white;
+  justify-content: space-around;
+  cursor: pointer;
+}
+
+.header-option.selected {
+  text-decoration: underline;
+}
+
+.body {
+  padding: 50px;
+  background-color: silver;
+}

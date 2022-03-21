@@ -1,0 +1,9 @@
+.list-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.list-item {
+  margin-bottom: 25px;
+}

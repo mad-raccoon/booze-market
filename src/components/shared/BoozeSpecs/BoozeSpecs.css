@@ -1,30 +1,29 @@
 .specs {
-    /* background-color: gray; */
-    display: flex;
-    justify-content: space-between;
-
+  display: flex;
+  justify-content: space-between;
 }
 
 .spec-item {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    width: 70px;
-    height: 70px;
-    border:1px solid black;
-    font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  border: 1px solid black;
+  font-size: 20px;
+  text-align: center;
 }
 
 .spec-item.ph {
-    background-color: olive;
+  background-color: olive;
 }
 
 .spec-item.vol {
-    background-color: orange;
+  background-color: orange;
 }
 
 .spec-item.alc {
-    background-color: orangered;
+  background-color: orangered;
 }
